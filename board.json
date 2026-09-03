@@ -1,0 +1,131 @@
+{
+  "as_of": "2026-09-03T02:19:13Z",
+  "calls": [
+    {
+      "id": "2026-W35-XAUUSD",
+      "instrument": "XAUUSD",
+      "timeframe": "4H",
+      "bias": "Long",
+      "status": "awaiting_approval",
+      "verdict": null,
+      "zones": {
+        "E1": [
+          4300.0,
+          4450.0
+        ],
+        "T1": [
+          4780.0,
+          4840.0
+        ],
+        "INV": [
+          4220.0,
+          4290.0
+        ]
+      },
+      "kill": {
+        "rule": "close_below",
+        "level": 4290.0
+      },
+      "last": null,
+      "entered_zones": [],
+      "events": [],
+      "presenter": "Tyba",
+      "approved_by": null,
+      "expires": "2026-09-13",
+      "snapshot": null,
+      "image": null,
+      "issue": 1
+    },
+    {
+      "id": "2026-W36-EURUSD",
+      "instrument": "EURUSD",
+      "timeframe": "4H",
+      "bias": "Long",
+      "status": "entered",
+      "verdict": null,
+      "zones": {
+        "E1": [
+          1.1565,
+          1.1602
+        ],
+        "T1": [
+          1.1796,
+          1.1828
+        ],
+        "INV": [
+          1.153,
+          1.1565
+        ]
+      },
+      "kill": {
+        "rule": "close_below",
+        "level": 1.1565
+      },
+      "last": 1.15868,
+      "entered_zones": [
+        "E1"
+      ],
+      "events": [
+        {
+          "t": "2026-09-02T05:54:33Z",
+          "e": "entered_E1",
+          "price": 1.15808
+        }
+      ],
+      "presenter": "Tyba",
+      "approved_by": "awaheedgrp",
+      "expires": "2026-09-16",
+      "snapshot": "https://www.tradingview.com/x/9laLjg5E/",
+      "image": "https://s3.tradingview.com/snapshots/9/9laLjg5E.png",
+      "issue": 2
+    },
+    {
+      "id": "2026-W35-GBPUSD",
+      "instrument": "GBPUSD",
+      "timeframe": "1D",
+      "bias": "Long",
+      "status": "closed",
+      "verdict": "entered_failed",
+      "zones": {
+        "E1": [
+          1.35724,
+          1.3665
+        ],
+        "T1": [
+          1.386,
+          1.388
+        ],
+        "INV": [
+          1.348,
+          1.35111
+        ]
+      },
+      "kill": {
+        "rule": "close_below",
+        "level": 1.35111
+      },
+      "last": 1.35085,
+      "entered_zones": [
+        "E1"
+      ],
+      "events": [
+        {
+          "t": "2026-08-26T02:45:57Z",
+          "e": "entered_E1",
+          "price": 1.36442
+        },
+        {
+          "t": "2026-09-02T01:16:30Z",
+          "e": "invalidated",
+          "close": 1.35085
+        }
+      ],
+      "presenter": "external (bhs_Fin idea)",
+      "approved_by": null,
+      "expires": "2026-09-08",
+      "snapshot": "https://www.tradingview.com/chart/GBPUSD/FEHLtAdp-GBPUSD-Buy-Trend/",
+      "image": "https://s3.tradingview.com/f/FEHLtAdp_big.png",
+      "issue": null
+    }
+  ]
+}
