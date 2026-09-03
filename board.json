@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-03T14:32:15Z",
+  "as_of": "2026-09-03T18:01:09Z",
   "calls": [
     {
       "id": "2026-W35-XAUUSD",
@@ -26,7 +26,7 @@
         "rule": "close_below",
         "level": 4290
       },
-      "last": 4478.28034,
+      "last": 4487.32331,
       "entered_zones": [
         "E1"
       ],
@@ -69,7 +69,7 @@
         "rule": "close_below",
         "level": 1.1565
       },
-      "last": 1.1623,
+      "last": 1.16333,
       "entered_zones": [
         "E1"
       ],
