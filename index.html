@@ -52,7 +52,8 @@
   .v{display:grid;grid-template-columns:1fr auto;gap:8px;padding:11px 14px;border-bottom:1px solid var(--line);font-size:14px;align-items:center}
   .v:last-child{border-bottom:0}
   .v small{display:block;font-size:12px;color:var(--muted);font-family:var(--mono)}
-  .v .tag{font-weight:700;font-size:13px}
+  .v .tag{font-weight:700;font-size:13px;align-self:start;padding-top:2px}
+  .v small a{color:var(--target);font-family:var(--sans)}
   .v .tag.bad{color:var(--invalid)} .v .tag.good{color:var(--entry)}
   details.chart{margin-top:10px}
   details.chart summary{cursor:pointer;font-size:13px;color:var(--target);font-weight:600;list-style:none}
@@ -163,7 +164,7 @@ function render(data){
   put("in-zone", inZone, "Nothing inside a zone right now.");
   put("waiting", waiting, "Every approved call is being monitored.");
   put("live", live, "No approved calls are waiting for price. Add the next chart via the submission form.");
-  document.getElementById("verdicts").innerHTML=closed.length?closed.map(c=>`<div class="v"><div>${c.instrument} ${c.bias} ${c.timeframe}<small>${narrative(c)}</small></div><span class="tag ${c.verdict==="played_out"?"good":"bad"}">${{played_out:"Played out",entered_failed:"Entered, failed",invalidated:"Invalidated",never_came:"Never came",expired_never_came:"Expired"}[c.verdict]||c.verdict}</span></div>`).join(""):`<div class="empty">No calls have closed yet.</div>`;
+  document.getElementById("verdicts").innerHTML=closed.length?closed.map(c=>`<div class="v"><div>${c.instrument} ${c.bias} ${c.timeframe}<small>${narrative(c)}</small>${c.snapshot?`<small><a href="${c.snapshot}" target="_blank" rel="noopener">open in TradingView</a></small>`:""}${c.image?`<details class="chart"><summary>Show the marked chart</summary><img src="${c.image}" alt="${c.instrument} marked chart" loading="lazy"></details>`:""}</div><span class="tag ${c.verdict==="played_out"?"good":"bad"}">${{played_out:"Played out",entered_failed:"Entered, failed",invalidated:"Invalidated",never_came:"Never came",expired_never_came:"Expired"}[c.verdict]||c.verdict}</span></div>`).join(""):`<div class="empty">No calls have closed yet.</div>`;
 }
 
 fetch("board.json?t="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}).then(render)
