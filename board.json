@@ -1,36 +1,44 @@
 {
-  "as_of": "2026-09-03T02:32:26Z",
+  "as_of": "2026-09-03T02:39:10Z",
   "calls": [
     {
       "id": "2026-W35-XAUUSD",
       "instrument": "XAUUSD",
       "timeframe": "4H",
       "bias": "Long",
-      "status": "awaiting_approval",
+      "status": "entered",
       "verdict": null,
       "zones": {
         "E1": [
-          4300.0,
-          4450.0
+          4300,
+          4450
         ],
         "T1": [
-          4780.0,
-          4840.0
+          4780,
+          4840
         ],
         "INV": [
-          4220.0,
-          4290.0
+          4220,
+          4290
         ]
       },
       "kill": {
         "rule": "close_below",
-        "level": 4290.0
+        "level": 4290
       },
-      "last": null,
-      "entered_zones": [],
-      "events": [],
+      "last": 4416.57097,
+      "entered_zones": [
+        "E1"
+      ],
+      "events": [
+        {
+          "t": "2026-09-03T02:39:10Z",
+          "e": "entered_E1",
+          "price": 4416.57097
+        }
+      ],
       "presenter": "Tyba",
-      "approved_by": null,
+      "approved_by": "awaheedgrp",
       "expires": "2026-09-13",
       "snapshot": null,
       "image": null,
@@ -61,7 +69,7 @@
         "rule": "close_below",
         "level": 1.1565
       },
-      "last": 1.15899,
+      "last": 1.15931,
       "entered_zones": [
         "E1"
       ],
