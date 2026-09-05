@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-05T04:18:45Z",
+  "as_of": "2026-09-05T08:25:10Z",
   "calls": [
     {
       "id": "2026-W35-XAUUSD",
@@ -35,6 +35,13 @@
           "t": "2026-09-03T02:39:10Z",
           "e": "entered_E1",
           "price": 4416.57097
+        },
+        {
+          "t": "2026-09-05T06:25:22Z",
+          "e": "ops_note",
+          "by": "asb36",
+          "value": "Ops workflow round-trip test",
+          "reason": "first run of the Ops form"
         }
       ],
       "presenter": "Tyba",
@@ -69,7 +76,7 @@
         "rule": "close_below",
         "level": 1.1565
       },
-      "last": 1.16137,
+      "last": 1.16143,
       "entered_zones": [
         "E1"
       ],
