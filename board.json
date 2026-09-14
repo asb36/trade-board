@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-09-14T07:05:16Z",
+  "as_of": "2026-09-14T13:57:48Z",
   "calls": [
     {
       "id": "2026-W35-XAUUSD",
       "instrument": "XAUUSD",
       "timeframe": "4H",
       "bias": "Long",
-      "status": "entered",
-      "verdict": null,
+      "status": "closed",
+      "verdict": "entered_failed",
       "zones": {
         "E1": [
           4300,
@@ -26,7 +26,7 @@
         "rule": "close_below",
         "level": 4290
       },
-      "last": 4319.84103,
+      "last": 4271.64536,
       "entered_zones": [
         "E1"
       ],
@@ -42,6 +42,11 @@
           "by": "asb36",
           "value": "Ops workflow round-trip test",
           "reason": "first run of the Ops form"
+        },
+        {
+          "t": "2026-09-14T13:57:47Z",
+          "e": "invalidated",
+          "close": 4271.64536
         }
       ],
       "presenter": "Tyba",
@@ -56,8 +61,8 @@
       "instrument": "EURUSD",
       "timeframe": "4H",
       "bias": "Long",
-      "status": "entered",
-      "verdict": null,
+      "status": "closed",
+      "verdict": "entered_failed",
       "zones": {
         "E1": [
           1.1565,
@@ -76,7 +81,7 @@
         "rule": "close_below",
         "level": 1.1565
       },
-      "last": 1.15545,
+      "last": 1.15325,
       "entered_zones": [
         "E1"
       ],
@@ -85,6 +90,11 @@
           "t": "2026-09-02T05:54:33Z",
           "e": "entered_E1",
           "price": 1.15808
+        },
+        {
+          "t": "2026-09-14T13:57:47Z",
+          "e": "invalidated",
+          "close": 1.15325
         }
       ],
       "presenter": "Tyba",
