@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-21T00:29:21Z",
+  "as_of": "2026-09-21T05:21:02Z",
   "calls": [
     {
       "id": "2026-W35-XAUUSD",
@@ -257,7 +257,7 @@
         "rule": "close_above",
         "level": 161.0
       },
-      "last": 156.90006,
+      "last": null,
       "entered_zones": [],
       "events": [],
       "presenter": "Babar",
@@ -292,7 +292,7 @@
         "rule": "close_below",
         "level": 1.33
       },
-      "last": 1.33908,
+      "last": null,
       "entered_zones": [],
       "events": [],
       "presenter": "Babar",
@@ -301,6 +301,76 @@
       "snapshot": "https://www.tradingview.com/x/DzjoMTWn/",
       "image": "https://s3.tradingview.com/snapshots/d/DzjoMTWn.png",
       "issue": 12
+    },
+    {
+      "id": "2026-W39-AUDUSD",
+      "instrument": "AUDUSD",
+      "timeframe": "4H",
+      "bias": "Long",
+      "status": "live",
+      "verdict": null,
+      "zones": {
+        "E1": [
+          0.7083,
+          0.7123
+        ],
+        "T1": [
+          0.7211,
+          0.7219
+        ],
+        "INV": [
+          0.7045,
+          0.7067
+        ]
+      },
+      "kill": {
+        "rule": "close_below",
+        "level": 0.7067
+      },
+      "last": null,
+      "entered_zones": [],
+      "events": [],
+      "presenter": "Tyba",
+      "approved_by": "awaheedgrp",
+      "expires": "2026-10-05",
+      "snapshot": "https://www.tradingview.com/x/o0BQ8HyP/",
+      "image": "https://s3.tradingview.com/snapshots/o/o0BQ8HyP.png",
+      "issue": 13
+    },
+    {
+      "id": "2026-W39-EURUSD",
+      "instrument": "EURUSD",
+      "timeframe": "4H",
+      "bias": "Long",
+      "status": "live",
+      "verdict": null,
+      "zones": {
+        "E1": [
+          1.145,
+          1.1475
+        ],
+        "T1": [
+          1.18,
+          1.181
+        ],
+        "INV": [
+          1.135,
+          1.1365
+        ]
+      },
+      "kill": {
+        "rule": "close_below",
+        "level": 1.1365
+      },
+      "last": null,
+      "entered_zones": [],
+      "events": [],
+      "presenter": "Tyba",
+      "approved_by": "awaheedgrp",
+      "expires": "2026-10-05",
+      "snapshot": "https://www.tradingview.com/x/QYGNb7YT/",
+      "image": "https://s3.tradingview.com/snapshots/q/QYGNb7YT.png",
+      "issue": 14
     }
   ]
 }
