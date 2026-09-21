@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-20T22:38:34Z",
+  "as_of": "2026-09-21T00:29:21Z",
   "calls": [
     {
       "id": "2026-W35-XAUUSD",
@@ -257,7 +257,7 @@
         "rule": "close_above",
         "level": 161.0
       },
-      "last": 156.97733,
+      "last": 156.90006,
       "entered_zones": [],
       "events": [],
       "presenter": "Babar",
