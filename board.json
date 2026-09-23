@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-23T11:51:19Z",
+  "as_of": "2026-09-23T16:06:21Z",
   "calls": [
     {
       "id": "2026-W35-XAUUSD",
@@ -237,7 +237,7 @@
       "instrument": "USDJPY",
       "timeframe": "4H",
       "bias": "Short",
-      "status": "live",
+      "status": "entered",
       "verdict": null,
       "zones": {
         "E1": [
@@ -257,9 +257,17 @@
         "rule": "close_above",
         "level": 161.0
       },
-      "last": null,
-      "entered_zones": [],
-      "events": [],
+      "last": 158.34494,
+      "entered_zones": [
+        "E1"
+      ],
+      "events": [
+        {
+          "t": "2026-09-23T16:06:18Z",
+          "e": "entered_E1",
+          "price": 158.34494
+        }
+      ],
       "presenter": "Babar",
       "approved_by": "awaheedgrp",
       "expires": "2026-10-04",
@@ -272,8 +280,8 @@
       "instrument": "GBPUSD",
       "timeframe": "4H",
       "bias": "Long",
-      "status": "entered",
-      "verdict": null,
+      "status": "closed",
+      "verdict": "entered_failed",
       "zones": {
         "E1": [
           1.3335,
@@ -292,7 +300,7 @@
         "rule": "close_below",
         "level": 1.33
       },
-      "last": 1.33683,
+      "last": 1.32751,
       "entered_zones": [
         "E1"
       ],
@@ -301,6 +309,11 @@
           "t": "2026-09-21T20:46:55Z",
           "e": "entered_E1",
           "price": 1.33683
+        },
+        {
+          "t": "2026-09-23T16:06:18Z",
+          "e": "invalidated",
+          "close": 1.32751
         }
       ],
       "presenter": "Babar",
@@ -315,8 +328,8 @@
       "instrument": "AUDUSD",
       "timeframe": "4H",
       "bias": "Long",
-      "status": "entered",
-      "verdict": null,
+      "status": "closed",
+      "verdict": "entered_failed",
       "zones": {
         "E1": [
           0.7083,
@@ -335,7 +348,7 @@
         "rule": "close_below",
         "level": 0.7067
       },
-      "last": 0.7123,
+      "last": 0.70656,
       "entered_zones": [
         "E1"
       ],
@@ -344,6 +357,11 @@
           "t": "2026-09-21T16:53:25Z",
           "e": "entered_E1",
           "price": 0.7123
+        },
+        {
+          "t": "2026-09-23T16:06:18Z",
+          "e": "invalidated",
+          "close": 0.70656
         }
       ],
       "presenter": "Tyba",
