@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-23T16:06:21Z",
+  "as_of": "2026-09-23T19:39:12Z",
   "calls": [
     {
       "id": "2026-W35-XAUUSD",
@@ -413,6 +413,49 @@
       "snapshot": "https://www.tradingview.com/x/QYGNb7YT/",
       "image": "https://s3.tradingview.com/snapshots/q/QYGNb7YT.png",
       "issue": 14
+    },
+    {
+      "id": "2026-W39-USDCAD",
+      "instrument": "USDCAD",
+      "timeframe": "4H",
+      "bias": "Short",
+      "status": "entered",
+      "verdict": null,
+      "zones": {
+        "E1": [
+          1.4095,
+          1.41166
+        ],
+        "T1": [
+          1.3895,
+          1.391
+        ],
+        "INV": [
+          1.415,
+          1.42
+        ]
+      },
+      "kill": {
+        "rule": "close_above",
+        "level": 1.415
+      },
+      "last": 1.40973,
+      "entered_zones": [
+        "E1"
+      ],
+      "events": [
+        {
+          "t": "2026-09-23T19:39:11Z",
+          "e": "entered_E1",
+          "price": 1.40973
+        }
+      ],
+      "presenter": "Alam",
+      "approved_by": "awaheedgrp",
+      "expires": "2026-10-07",
+      "snapshot": "https://www.tradingview.com/x/8OhTCv12/",
+      "image": "https://s3.tradingview.com/snapshots/8/8OhTCv12.png",
+      "issue": 18
     }
   ]
 }
