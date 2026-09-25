@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-25T15:31:47Z",
+  "as_of": "2026-09-25T19:31:18Z",
   "calls": [
     {
       "id": "2026-W35-XAUUSD",
@@ -419,8 +419,8 @@
       "instrument": "USDCAD",
       "timeframe": "4H",
       "bias": "Short",
-      "status": "entered",
-      "verdict": null,
+      "status": "closed",
+      "verdict": "entered_failed",
       "zones": {
         "E1": [
           1.4095,
@@ -439,7 +439,7 @@
         "rule": "close_above",
         "level": 1.415
       },
-      "last": 1.40973,
+      "last": 1.41515,
       "entered_zones": [
         "E1"
       ],
@@ -448,6 +448,11 @@
           "t": "2026-09-23T19:39:11Z",
           "e": "entered_E1",
           "price": 1.40973
+        },
+        {
+          "t": "2026-09-25T19:31:17Z",
+          "e": "invalidated",
+          "close": 1.41515
         }
       ],
       "presenter": "Alam",
