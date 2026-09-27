@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-27T20:27:46Z",
+  "as_of": "2026-09-27T23:18:51Z",
   "calls": [
     {
       "id": "2026-W35-XAUUSD",
@@ -504,6 +504,76 @@
       "snapshot": "https://www.tradingview.com/x/5DZ3wVjQ/",
       "image": "https://s3.tradingview.com/snapshots/5/5DZ3wVjQ.png",
       "issue": 19
+    },
+    {
+      "id": "2026-W39-XAGUSD",
+      "instrument": "XAGUSD",
+      "timeframe": "4H",
+      "bias": "Long",
+      "status": "live",
+      "verdict": null,
+      "zones": {
+        "E1": [
+          61.9,
+          62.3795
+        ],
+        "T1": [
+          69.9414,
+          71.2
+        ],
+        "INV": [
+          59.9,
+          60.0
+        ]
+      },
+      "kill": {
+        "rule": "close_below",
+        "level": 61.9
+      },
+      "last": null,
+      "entered_zones": [],
+      "events": [],
+      "presenter": "Alam",
+      "approved_by": "awaheedgrp",
+      "expires": "2026-10-11",
+      "snapshot": "https://www.tradingview.com/x/T3pbwzwT/",
+      "image": "https://s3.tradingview.com/snapshots/t/T3pbwzwT.png",
+      "issue": 23
+    },
+    {
+      "id": "2026-W39-XAUUSD",
+      "instrument": "XAUUSD",
+      "timeframe": "4H",
+      "bias": "Long",
+      "status": "live",
+      "verdict": null,
+      "zones": {
+        "E1": [
+          4150.0,
+          4200.0
+        ],
+        "T1": [
+          4610.0,
+          4700.0
+        ],
+        "INV": [
+          4010.0,
+          4110.0
+        ]
+      },
+      "kill": {
+        "rule": "close_below",
+        "level": 4110.0
+      },
+      "last": null,
+      "entered_zones": [],
+      "events": [],
+      "presenter": "Tyba",
+      "approved_by": "awaheedgrp",
+      "expires": "2026-10-11",
+      "snapshot": "https://www.tradingview.com/x/4fAUpc5e/",
+      "image": "https://s3.tradingview.com/snapshots/4/4fAUpc5e.png",
+      "issue": 24
     }
   ]
 }
