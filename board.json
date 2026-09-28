@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-28T16:03:12Z",
+  "as_of": "2026-09-28T21:54:48Z",
   "calls": [
     {
       "id": "2026-W35-XAUUSD",
@@ -574,6 +574,41 @@
       "snapshot": "https://www.tradingview.com/x/4fAUpc5e/",
       "image": "https://s3.tradingview.com/snapshots/4/4fAUpc5e.png",
       "issue": 24
+    },
+    {
+      "id": "2026-W40-AUDUSD",
+      "instrument": "AUDUSD",
+      "timeframe": "2H",
+      "bias": "Long",
+      "status": "live",
+      "verdict": null,
+      "zones": {
+        "E1": [
+          0.69222,
+          0.69618
+        ],
+        "T1": [
+          0.7176,
+          0.71986
+        ],
+        "INV": [
+          0.68,
+          0.685
+        ]
+      },
+      "kill": {
+        "rule": "close_below",
+        "level": 0.685
+      },
+      "last": null,
+      "entered_zones": [],
+      "events": [],
+      "presenter": "TYBA",
+      "approved_by": "awaheedgrp",
+      "expires": "2026-10-12",
+      "snapshot": "https://www.tradingview.com/x/unPyYIZw/",
+      "image": "https://s3.tradingview.com/snapshots/u/unPyYIZw.png",
+      "issue": 26
     }
   ]
 }
