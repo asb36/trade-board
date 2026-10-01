@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-30T23:39:04Z",
+  "as_of": "2026-10-01T02:25:47Z",
   "calls": [
     {
       "id": "2026-W35-XAUUSD",
@@ -598,7 +598,7 @@
       "instrument": "AUDUSD",
       "timeframe": "2H",
       "bias": "Long",
-      "status": "live",
+      "status": "entered",
       "verdict": null,
       "zones": {
         "E1": [
@@ -618,9 +618,17 @@
         "rule": "close_below",
         "level": 0.685
       },
-      "last": null,
-      "entered_zones": [],
-      "events": [],
+      "last": 0.69422,
+      "entered_zones": [
+        "E1"
+      ],
+      "events": [
+        {
+          "t": "2026-10-01T02:25:47Z",
+          "e": "entered_E1",
+          "price": 0.69422
+        }
+      ],
       "presenter": "TYBA",
       "approved_by": "awaheedgrp",
       "expires": "2026-10-12",
