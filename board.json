@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-07T13:53:23Z",
+  "as_of": "2026-10-07T19:43:44Z",
   "calls": [
     {
       "id": "2026-W35-XAUUSD",
@@ -555,8 +555,8 @@
       "instrument": "XAUUSD",
       "timeframe": "4H",
       "bias": "Long",
-      "status": "entered",
-      "verdict": null,
+      "status": "closed",
+      "verdict": "entered_failed",
       "zones": {
         "E1": [
           4150.0,
@@ -575,7 +575,7 @@
         "rule": "close_below",
         "level": 4110.0
       },
-      "last": 4165.62526,
+      "last": 4106.00462,
       "entered_zones": [
         "E1"
       ],
@@ -584,6 +584,11 @@
           "t": "2026-09-29T14:13:46Z",
           "e": "entered_E1",
           "price": 4165.62526
+        },
+        {
+          "t": "2026-10-07T19:43:42Z",
+          "e": "invalidated",
+          "close": 4106.00462
         }
       ],
       "presenter": "Tyba",
