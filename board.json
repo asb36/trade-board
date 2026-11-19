@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-19T00:38:28Z",
+  "as_of": "2026-11-19T07:55:48Z",
   "calls": [
     {
       "id": "2026-W35-XAUUSD",
@@ -257,7 +257,7 @@
         "rule": "close_above",
         "level": 161.0
       },
-      "last": 159.39917,
+      "last": 159.7368,
       "entered_zones": [
         "E1"
       ],
@@ -651,8 +651,8 @@
       "instrument": "EURUSD",
       "timeframe": "1D",
       "bias": "Long",
-      "status": "entered",
-      "verdict": null,
+      "status": "closed",
+      "verdict": "entered_failed",
       "zones": {
         "E1": [
           1.11948,
@@ -671,7 +671,7 @@
         "rule": "close_below",
         "level": 1.096
       },
-      "last": 1.12563,
+      "last": 1.09582,
       "entered_zones": [
         "E1"
       ],
@@ -680,6 +680,11 @@
           "t": "2026-10-04T00:46:00Z",
           "e": "entered_E1",
           "price": 1.12563
+        },
+        {
+          "t": "2026-11-19T07:55:47Z",
+          "e": "invalidated",
+          "close": 1.09582
         }
       ],
       "presenter": "TYBA",
